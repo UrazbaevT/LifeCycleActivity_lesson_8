@@ -21,6 +21,9 @@ public class SecondActivity extends AppCompatActivity {
         String text = getIntent().getStringExtra("key1");
 
         ((TextView) findViewById(R.id.text_view)).setText("Hello " + text);
+
+
+        //hello from second commit
     }
 
     @Override
